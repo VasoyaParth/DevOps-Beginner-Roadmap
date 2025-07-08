@@ -46,55 +46,74 @@ Welcome to your **DevOps Journey**! Whether you're transitioning from software d
 - 🧰 Use **free cloud**: [AWS Free Tier](https://aws.amazon.com/free/), [Google Cloud Free Tier](https://cloud.google.com/free)
 
 ---
-
 ## 🧾 DevOps Cheatsheet
 
-```markdown
-### 📂 Linux/Bash
+### 📂 Linux / Bash
 - `ls`, `cd`, `mkdir`, `touch`, `rm`, `cat`, `grep`, `chmod`, `chown`
 - `scp`, `ssh`, `.bashrc`, `alias`
 
-### 🔁 Git
-- `git init`, `git clone`, `git add`, `git commit -m ""`, `git push`
-- Branching: `git branch`, `checkout`, `merge`
-- Collaboration: PRs, conflict resolution
+### 🔁 Git & GitHub
+- Basics: `git init`, `git clone`, `git add`, `git commit -m "message"`, `git push`
+- Branching: `git branch`, `git checkout`, `git merge`
+- Collaboration: Pull Requests (PRs), merge conflict resolution
 
 ### 🐍 Python for DevOps
-- File automation, REST API with `requests`
-- `os`, `subprocess`, `argparse`, `json`, `yaml`
+- Automation: File handling, REST APIs with `requests`
+- Common modules: `os`, `subprocess`, `argparse`, `json`, `yaml`
 
 ### 🌐 Networking & Security
-- OSI model, IP, DNS, HTTP vs HTTPS
-- SSL/TLS, Firewalls, SSH, Public/Private keys
+- Concepts: OSI model, IP addressing, DNS, HTTP vs HTTPS
+- Security Tools: SSL/TLS, Firewalls, SSH, Public/Private Key Auth
 
-### 🔄 CI/CD (GitHub Actions / Jenkins)
-- GitHub Actions: `main.yml`, `on: push`, `jobs: build`
-- Jenkins: Freestyle & Pipeline jobs, `Jenkinsfile`
+### 🔄 CI/CD (GitHub Actions & Jenkins)
+- **GitHub Actions**:
+  - Workflow: `.github/workflows/main.yml`
+  - Triggers: `on: push`
+  - Jobs: `jobs: build`
+- **Jenkins**:
+  - Types: Freestyle Jobs, Pipeline Jobs
+  - Pipeline: `Jenkinsfile`
 
 ### 🐳 Docker
-- `docker build -t image .`, `run -d -p 80:80`, `exec -it bash`
-- Dockerfile: `FROM`, `COPY`, `RUN`, `CMD`
+- Commands:
+  - `docker build -t image .`
+  - `docker run -d -p 80:80 image`
+  - `docker exec -it container bash`
+- Dockerfile Instructions: `FROM`, `COPY`, `RUN`, `CMD`, `ENTRYPOINT`
 
 ### ☸️ Kubernetes
-- `kubectl apply -f`, `get pods`, `logs`, `describe`
-- Resources: Pod, Deployment, Service, ConfigMap
+- Commands:
+  - `kubectl apply -f file.yaml`
+  - `kubectl get pods`
+  - `kubectl logs pod-name`
+  - `kubectl describe pod-name`
+- Resources: Pod, Deployment, Service, ConfigMap, Secret
 
-### 🔧 IaC (Terraform, Ansible)
-- Terraform: `init`, `plan`, `apply`, HCL language
-- Ansible: `ansible-playbook`, `hosts`, `tasks`, `vars`
+### 🔧 Infrastructure as Code (IaC)
+- **Terraform**:
+  - Commands: `terraform init`, `plan`, `apply`
+  - Language: HCL (HashiCorp Configuration Language)
+- **Ansible**:
+  - Usage: `ansible-playbook`
+  - Components: `hosts`, `tasks`, `vars`, `handlers`
 
 ### 📊 Monitoring & Logging
-- Prometheus: Targets, Metrics, Alerts
-- Grafana: Dashboards, Panels, Queries
-- ELK Stack: Elasticsearch, Logstash, Kibana
+- **Prometheus**: Targets, Metrics, Alerting Rules
+- **Grafana**: Dashboards, Panels, Query Builder
+- **ELK Stack**:
+  - Elasticsearch (storage & search)
+  - Logstash (log ingestion)
+  - Kibana (visualization)
 
 ### 🔐 DevSecOps
-- DORA Metrics: Lead Time, Deployment Frequency, MTTR, Change Failure Rate
-- Scanning Tools: `Trivy`, `Snyk`
-- Secrets Management: `.env`, HashiCorp Vault, GitHub Secrets
-```
+- **DORA Metrics**:
+  - Lead Time for Changes
+  - Deployment Frequency
+  - Mean Time to Recovery (MTTR)
+  - Change Failure Rate
+- **Security Tools**: `Trivy`, `Snyk`
+- **Secrets Management**: `.env` files, GitHub Secrets, HashiCorp Vault
 
----
 
 ## 🧠 Bonus: What Else to Learn Next?
 
