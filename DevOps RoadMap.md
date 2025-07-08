@@ -140,3 +140,13 @@ You're not expected to master all in 10 days. But this journey will:
 Feel free to fork this repo, track your learning journey, and share your notes. Good luck future DevOps Engineer! 💪🔥
 
 > 💬 Have questions or want PDF export? Message me!
+
+---
+
+## 📜 Disclaimer
+
+All external resources, videos, and diagrams referenced in this guide are the property of their respective content creators and copyright holders. This roadmap is intended for educational and personal learning purposes only.
+
+If you're a content creator and would like your content removed or credited differently, please feel free to open an issue or contact the repository maintainer.
+
+No copyright infringement is intended.
