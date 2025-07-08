@@ -106,14 +106,7 @@ Welcome to your **DevOps Journey**! Whether you're transitioning from software d
 
 ---
 
-## 📸 Visuals & Diagrams
 
-You can view ready-made visual diagrams from these:
-- [DevOps Toolchain Diagram](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*geHE_kUdxjrdw64V0sqEIQ.png)
-- [Kubernetes Architecture](https://www.edureka.co/blog/wp-content/uploads/2019/02/Kubernetes-Architecture-Edureka.png)
-- [CI/CD Pipeline Flow](https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/devops-pipeline-ra.6b2c0b3ef646b490d5f515e279a6f7cd59c0a46e.png)
-
----
 
 ## 💼 Sample Mini Project (Do After Day 10)
 
